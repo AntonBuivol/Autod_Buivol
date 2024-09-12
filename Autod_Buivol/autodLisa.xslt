@@ -61,7 +61,7 @@
 			<xsl:for-each select="autod/auto[starts-with(registrinumber, 2)]">
 				<xsl:sort select="vaasta" order="descending"/>
 				<li>
-					<xsl:value-of select="concat(mark, ', ', registrinumber, ', ', vaasta)"/>
+					<xsl:value-of select="concat(mark, ', ', registrinumber, ', ', lennuhind)"/>
 				</li>
 			</xsl:for-each>
 		</ul>

@@ -4,7 +4,11 @@
 <asp:content ID="Connt1" ContentPlaceHolderID="MainContent" runat="server">
     <h1>xml ja xslt andmete kuvamine</h1>
     <br />
-    <div>
+<%--    <div>
         <asp:Xml runat="server" DocumentSource="~/autod.xml" TransformSource="~/autodLisa.xslt" />
+    </div>--%>
+    
+    <div>
+        <asp:Xml runat="server" DocumentSource="~/reisid.xml" TransformSource="~/reisLisa.xslt" />
     </div>
 </asp:content>
